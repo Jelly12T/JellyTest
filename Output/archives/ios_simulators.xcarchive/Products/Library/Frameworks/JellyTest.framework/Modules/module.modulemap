@@ -1,0 +1,11 @@
+framework module JellyTest {
+  umbrella header "JellyTest.h"
+
+  export *
+  module * { export * }
+}
+
+module JellyTest.Swift {
+    header "JellyTest-Swift.h"
+    requires objc
+}
